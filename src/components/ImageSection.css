@@ -6,17 +6,19 @@
 .image_container {
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .image_frame {
     width: 500px;
     height: 500px;
+    display: flex;
 }
 
 .image_one {
     background-image: url("../Images/b3ff3accc46377d013a80eb9519c8c1c.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .image_two {
@@ -28,3 +30,12 @@
     background-image: url("../Images/flat,1000x1000,075,f.jpg");
     background-size: cover;
 }
+
+.text_box {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    background-color: lightgray;
+    align-self: flex-end;
+    justify-content: flex-start;
+}   
