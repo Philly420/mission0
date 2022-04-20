@@ -1,0 +1,26 @@
+.navbar {
+    width: 100vw;
+    height: 100px;
+    justify-content: flex-end;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.nav_links {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 30px;
+    float: right;
+    margin-right: 50px;
+}
+
+.login_button {
+    width: 150px;
+    padding: 5px;
+}
