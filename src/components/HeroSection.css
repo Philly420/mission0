@@ -1,7 +1,7 @@
 .hero_section{
     width: 100vw;
     height: 800px;
-    background-image: url("../Images/FG6IqTnXEAQbF9K.jpg");
+    background-image: url("../Images/941788.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,4 +26,10 @@
     width: 200px;
     height: 52px;
     border: none;
+}
+
+.search_button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
 }

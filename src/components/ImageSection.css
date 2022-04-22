@@ -15,6 +15,11 @@
     display: flex;
 }
 
+.image_frame:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease;
+}
+
 .image_one {
     background-image: url("../Images/b3ff3accc46377d013a80eb9519c8c1c.jpg");
     background-size: cover;
