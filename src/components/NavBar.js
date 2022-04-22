@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <h6>MY COMPANY</h6>
+        <h6>MISSION ZERO</h6>
       </div>
       <div className="nav_links">
         <div className="nav_button">Menu1</div>
